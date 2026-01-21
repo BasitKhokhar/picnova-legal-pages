@@ -29,8 +29,8 @@ const Index = () => {
       <header className="border-b border-border">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
-              <Sparkles className="w-6 h-6 text-primary" />
+            <div className="w-12 h-12 rounded-xl overflow-hidden flex items-center justify-center">
+              <img src="/logoo.png" alt="PicNova Logo" className="w-full h-full object-cover" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-foreground">PicNova</h1>
@@ -104,7 +104,7 @@ const Index = () => {
               <span className="text-sm font-medium text-foreground">PicNova</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} PicNova. All rights reserved.
+              © {new Date().getFullYear()} PicNova • CoderzPark • Basit Khokhar
             </p>
           </div>
         </div>

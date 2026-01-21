@@ -21,7 +21,8 @@ const AboutApp = () => {
       <main className="legal-container">
         <header className="legal-header">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 mb-6">
-            <Sparkles className="w-8 h-8 text-primary" />
+            {/* <Sparkles className="w-8 h-8 text-primary" /> */}
+            <img src="/logoo.png" alt="PicNova Logo" className="w-full h-full object-cover" />
           </div>
           <h1 className="legal-title">About PicNova</h1>
           <p className="legal-subtitle">AI-Powered Image Generation & Enhancement</p>
@@ -61,7 +62,7 @@ const AboutApp = () => {
         {/* Section 2: Mission & Vision */}
         <section id="mission" className="legal-section">
           <h2 className="legal-section-title">2. Our Mission & Vision</h2>
-          
+
           <h3 className="legal-subsection-title">Our Mission</h3>
           <p className="legal-text">
             PicNova's mission is to democratize creative image generation and enhancement by making advanced AI technology accessible, intuitive, and affordable for everyone. We believe that creative expression should not be limited by technical skill, expensive software, or access to professional resources. Through continuous innovation and user-centered design, we strive to empower individuals and businesses worldwide to communicate visually with confidence and impact.

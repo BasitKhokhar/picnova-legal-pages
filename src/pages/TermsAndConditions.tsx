@@ -31,7 +31,8 @@ const TermsAndConditions = () => {
       <main className="legal-container">
         <header className="legal-header">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 mb-6">
-            <ScrollText className="w-8 h-8 text-primary" />
+            {/* <ScrollText className="w-8 h-8 text-primary" /> */}
+            <img src="/logoo.png" alt="PicNova Logo" className="w-full h-full object-cover" />
           </div>
           <h1 className="legal-title">Terms & Conditions</h1>
           <p className="legal-subtitle">Last Updated: {lastUpdated}</p>

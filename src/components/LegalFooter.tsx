@@ -7,7 +7,11 @@ const LegalFooter = () => {
   return (
     <footer className="legal-footer">
       <div className="flex items-center justify-center gap-2 mb-3">
-        <Sparkles className="w-4 h-4 text-primary" />
+        {/* <Sparkles className="w-4 h-4 text-primary" /> */}
+        <div className=" w-8 h-8 rounded-2xl bg-primary">
+          {/* <Sparkles className="w-8 h-8 text-primary" /> */}
+          <img src="/logoo.png" alt="PicNova Logo" className="w-full h-full object-cover" />
+        </div>
         <span className="font-semibold">PicNova</span>
       </div>
       <p className="legal-footer-text mb-4">
@@ -25,7 +29,7 @@ const LegalFooter = () => {
         </Link>
       </div>
       <p className="legal-footer-text">
-        © {currentYear} PicNova. All rights reserved.
+        © {currentYear} PicNova • CoderzPark • Basit Khokhar
       </p>
     </footer>
   );
