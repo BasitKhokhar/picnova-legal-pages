@@ -14,7 +14,7 @@ const LegalNav = () => {
 
   return (
     <nav className="legal-nav">
-      <div className="legal-nav-inner">
+      {/* <div className="legal-nav-inner">
         <Link to="/" className="legal-nav-brand">
           <Sparkles className="w-5 h-5 text-primary" />
           PicNova
@@ -58,7 +58,7 @@ const LegalNav = () => {
             </Link>
           ))}
         </div>
-      )}
+      )} */}
     </nav>
   );
 };
