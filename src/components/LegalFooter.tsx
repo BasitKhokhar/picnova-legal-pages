@@ -10,7 +10,7 @@ const LegalFooter = () => {
         {/* <Sparkles className="w-4 h-4 text-primary" /> */}
         <div className=" w-8 h-8 rounded-2xl bg-primary">
           {/* <Sparkles className="w-8 h-8 text-primary" /> */}
-          <img src="/logoo.png" alt="PicNova Logo" className="w-full h-full object-cover" />
+          <img src="/logoo.png" alt="PicNova Logo" className="w-full h-full object-cover rounded-sm" />
         </div>
         <span className="font-semibold">PicNova</span>
       </div>
