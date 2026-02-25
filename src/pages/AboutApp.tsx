@@ -7,12 +7,14 @@ const AboutApp = () => {
     { id: "introduction", label: "1. Introduction to PicNova" },
     { id: "mission", label: "2. Our Mission & Vision" },
     { id: "ai-features", label: "3. AI-Powered Features" },
-    { id: "how-it-works", label: "4. How PicNova Works" },
-    { id: "responsible-ai", label: "5. Responsible AI Usage" },
-    { id: "target-users", label: "6. Who PicNova is For" },
-    { id: "privacy-commitment", label: "7. Privacy & Security Commitment" },
-    { id: "future-roadmap", label: "8. Future Roadmap" },
-    { id: "contact", label: "9. Get in Touch" },
+    { id: "templates", label: "4. Templates & Community" },
+    { id: "gallery", label: "5. Gallery & Favourites" },
+    { id: "how-it-works", label: "6. How PicNova Works" },
+    { id: "responsible-ai", label: "7. Responsible AI Usage" },
+    { id: "target-users", label: "8. Who PicNova is For" },
+    { id: "privacy-commitment", label: "9. Privacy & Security Commitment" },
+    { id: "support", label: "10. Support & FAQs" },
+    { id: "contact", label: "11. Get in Touch" },
   ];
 
   return (
@@ -99,7 +101,7 @@ const AboutApp = () => {
               <div>
                 <h4 className="font-semibold text-lg mb-2">AI Image Generation</h4>
                 <p className="text-muted-foreground">
-                  Transform your words into stunning visuals with our advanced text-to-image generation system. Simply describe what you want to create using natural language, and PicNova's AI will generate unique, high-quality images matching your description. From photorealistic scenes to artistic illustrations, abstract compositions to product visualizations, the possibilities are limited only by your imagination. Our generation models understand complex prompts, artistic styles, color preferences, composition guidelines, and contextual nuances.
+                  Transform your words into stunning visuals with our advanced text-to-image generation system. Simply describe what you want to create using natural language, and PicNova's AI will generate unique, high-quality images matching your description. Our system supports simple prompts, reference images for guided generation, and advanced template-based payloads for professional-grade results. From photorealistic scenes to artistic illustrations, the possibilities are limited only by your imagination.
                 </p>
               </div>
             </div>
@@ -152,9 +154,32 @@ const AboutApp = () => {
           </ul>
         </section>
 
-        {/* Section 4: How It Works */}
+        <section id="templates" className="legal-section">
+          <h2 className="legal-section-title">4. Templates & Community</h2>
+          <p className="legal-text">
+            PicNova features a rich collection of templates and a vibrant community section to inspire your next creation.
+          </p>
+          <ul className="legal-list">
+            <li><strong>Category-wise Templates:</strong> Easily browse templates organized by categories like Abstract, Portrait, Nature, and more.</li>
+            <li><strong>Trending Templates:</strong> Discover what's popular in the community with our dynamically arranged trending templates section.</li>
+            <li><strong>Community Showcase:</strong> Explore amazing creations from other PicNova users in our Community Templates section.</li>
+          </ul>
+        </section>
+
+        <section id="gallery" className="legal-section">
+          <h2 className="legal-section-title">5. Gallery & Favourites</h2>
+          <p className="legal-text">
+            Your creative journey is organized and accessible with our management tools.
+          </p>
+          <ul className="legal-list">
+            <li><strong>Personal Gallery:</strong> All your generated images are saved in your personal gallery, where you can easily download them to your device or delete them when no longer needed.</li>
+            <li><strong>Favourite Templates:</strong> Quick access to the templates you love. Save any template to your Favourites section for easy use in future projects.</li>
+          </ul>
+        </section>
+
+        {/* Section 6: How It Works */}
         <section id="how-it-works" className="legal-section">
-          <h2 className="legal-section-title">4. How PicNova Works</h2>
+          <h2 className="legal-section-title">6. How PicNova Works</h2>
           <p className="legal-text">
             Understanding how PicNova operates helps you appreciate the technology behind the magic while providing confidence in how your images are handled. Here's a comprehensive look at the process from input to output.
           </p>
@@ -194,9 +219,9 @@ const AboutApp = () => {
           </ul>
         </section>
 
-        {/* Section 5: Responsible AI */}
+        {/* Section 7: Responsible AI */}
         <section id="responsible-ai" className="legal-section">
-          <h2 className="legal-section-title">5. Responsible AI Usage</h2>
+          <h2 className="legal-section-title">7. Responsible AI Usage</h2>
           <p className="legal-text">
             At PicNova, we recognize that AI image generation technology carries significant responsibilities. We are committed to developing and deploying our technology in ways that benefit society while minimizing potential harms. This commitment shapes every aspect of how we build and operate our service.
           </p>
@@ -227,9 +252,9 @@ const AboutApp = () => {
           </div>
         </section>
 
-        {/* Section 6: Target Users */}
+        {/* Section 8: Target Users */}
         <section id="target-users" className="legal-section">
-          <h2 className="legal-section-title">6. Who PicNova is For</h2>
+          <h2 className="legal-section-title">8. Who PicNova is For</h2>
           <p className="legal-text">
             PicNova is designed to serve a diverse community of users with varying needs, skill levels, and creative objectives. Our features cater to both professionals and casual users, ensuring that everyone can find value in what we offer.
           </p>
@@ -302,9 +327,9 @@ const AboutApp = () => {
           </p>
         </section>
 
-        {/* Section 7: Privacy & Security */}
+        {/* Section 9: Privacy & Security */}
         <section id="privacy-commitment" className="legal-section">
-          <h2 className="legal-section-title">7. Privacy & Security Commitment</h2>
+          <h2 className="legal-section-title">9. Privacy & Security Commitment</h2>
           <p className="legal-text">
             Your trust is fundamental to our relationship with you. PicNova is built on a foundation of privacy-first principles and robust security practices. We understand that the images you create and share are personal, and we treat them with the respect they deserve.
           </p>
@@ -333,40 +358,20 @@ const AboutApp = () => {
           </div>
         </section>
 
-        {/* Section 8: Future Roadmap */}
-        <section id="future-roadmap" className="legal-section">
-          <h2 className="legal-section-title">8. Future Roadmap</h2>
+        <section id="support" className="legal-section">
+          <h2 className="legal-section-title">10. Support & FAQs</h2>
           <p className="legal-text">
-            PicNova is continuously evolving. Our development team works tirelessly to improve existing features, introduce new capabilities, and ensure that PicNova remains at the forefront of AI-powered image technology. While specific timelines may vary, here's a glimpse of our vision for the future:
+            We are here to help you get the most out of PicNova. Our comprehensive support system includes:
           </p>
-
-          <h3 className="legal-subsection-title">Upcoming Enhancements</h3>
           <ul className="legal-list">
-            <li><strong>Advanced Generation Models:</strong> Integration of next-generation AI models for even higher quality, more coherent, and more controllable image generation</li>
-            <li><strong>Video Capabilities:</strong> Expanding beyond static images to include AI-powered video enhancement and generation features</li>
-            <li><strong>Collaboration Features:</strong> Tools for teams to work together on creative projects, share assets, and maintain brand consistency</li>
-            <li><strong>Expanded Style Library:</strong> A growing collection of artistic styles, templates, and presets curated by artists and our AI team</li>
-            <li><strong>Improved Localization:</strong> Better support for multiple languages and regional preferences to serve our global user base</li>
+            <li><strong>FAQs:</strong> Find quick answers to common questions about credits, image ownership, and feature usage.</li>
+            <li><strong>Customer Support:</strong> Reach out to our dedicated support team directly through the App for personalized assistance.</li>
           </ul>
-
-          <h3 className="legal-subsection-title">Long-Term Vision</h3>
-          <ul className="legal-list">
-            <li>Integration with other creative tools and platforms for seamless workflow</li>
-            <li>Expanded on-device AI capabilities for faster processing and offline use</li>
-            <li>Advanced personalization that learns your creative preferences over time</li>
-            <li>New modalities including 3D content and augmented reality features</li>
-            <li>Community features for sharing, collaboration, and inspiration</li>
-          </ul>
-
-          <h3 className="legal-subsection-title">User-Driven Development</h3>
-          <p className="legal-text">
-            Our roadmap is significantly influenced by user feedback. We actively listen to feature requests, analyze usage patterns, and engage with our community to understand what matters most. If you have ideas for how PicNova could better serve your needs, we want to hear from you.
-          </p>
         </section>
 
-        {/* Section 9: Contact */}
+        {/* Section 11: Contact */}
         <section id="contact" className="legal-section">
-          <h2 className="legal-section-title">9. Get in Touch</h2>
+          <h2 className="legal-section-title">11. Get in Touch</h2>
           <p className="legal-text">
             We value our relationship with every PicNova user and welcome your feedback, questions, and ideas. There are several ways to connect with us:
           </p>

@@ -84,6 +84,7 @@ const TermsAndConditions = () => {
             <li>Maintain the security and confidentiality of your login credentials</li>
             <li>Accept responsibility for all activities that occur under your account</li>
             <li>Notify us immediately of any unauthorized use of your account or any other security breach</li>
+            <li>Social Login: You may register and sign in using third-party services like Google+. Authentication is performed using secure JSON Web Tokens (JWT)</li>
           </ul>
         </section>
 
@@ -178,6 +179,16 @@ const TermsAndConditions = () => {
             <li>Not share your account access with unauthorized third parties</li>
             <li>Immediately notify us of any suspected unauthorized access to your account</li>
             <li>Take reasonable precautions to protect your device and data when using the App</li>
+          </ul>
+
+          <h3 className="legal-subsection-title">4.5 Account Management</h3>
+          <p className="legal-text">
+            You have the right and responsibility to manage your PicNova profile:
+          </p>
+          <ul className="legal-list">
+            <li><strong>Update Information:</strong> You can update your profile details and preferences through the account settings within the App</li>
+            <li><strong>Password Management:</strong> You are responsible for maintaining the security of your password. You can update your password at any time via the security settings</li>
+            <li><strong>Profile Deletion:</strong> You may choose to delete your profile permanently. Upon deletion, your personal data and generated content associated with the account will be removed in accordance with our Privacy Policy</li>
           </ul>
         </section>
 
@@ -314,9 +325,20 @@ const TermsAndConditions = () => {
             PicNova may offer premium features, subscriptions, or in-app purchases that provide enhanced functionality beyond the free version of the App. This section governs your use of such premium services.
           </p>
 
-          <h3 className="legal-subsection-title">8.1 Subscription Terms</h3>
+          <h3 className="legal-subsection-title">8.1 Free Plan and Credit System</h3>
+          <p className="legal-text">
+            PicNova offers a Free Plan that allows users to experience the AI features with certain limitations:
+          </p>
           <ul className="legal-list">
-            <li>Premium subscriptions are billed on a recurring basis (monthly or annually, as selected) through the Google Play Store</li>
+            <li><strong>Initial Credits:</strong> New users on the Free Plan are granted 5 initial credits to be used for AI image generation and enhancement</li>
+            <li><strong>Credit Renewal:</strong> Credits on the Free Plan are automatically renewed. You will receive 5 credits every 5 hours, up to the maximum limit of 5 credits</li>
+            <li><strong>Ad-Supported Model:</strong> The Free Plan is supported by advertisements. You may see Banner ads and Interstitial ads while navigating the App</li>
+            <li><strong>Rewarded Ads:</strong> You may be given the option to watch a short advertisement (Rewarded Ad) to earn additional credits or to unlock features like downloading a high-resolution generated image</li>
+          </ul>
+
+          <h3 className="legal-subsection-title">8.2 Premium Subscriptions</h3>
+          <ul className="legal-list">
+            <li>Premium subscriptions are billed on a recurring basis through the Google Play Store and typically offer ad-free experience and higher credit limits</li>
             <li>Subscription prices are displayed in the App and may vary by region and currency</li>
             <li>All prices are inclusive of applicable taxes unless otherwise stated</li>
             <li>Subscriptions automatically renew unless canceled at least 24 hours before the end of the current billing period</li>

@@ -51,7 +51,7 @@ const PrivacyPolicy = () => {
         <section id="introduction" className="legal-section">
           <h2 className="legal-section-title">1. Introduction</h2>
           <p className="legal-text">
-            Welcome to PicNova ("we," "our," "us," or the "Company"). PicNova is an innovative mobile application that leverages advanced artificial intelligence technology to provide image generation, enhancement, restoration, and creative transformation services. We are committed to protecting your privacy and ensuring the security of your personal information.
+            Welcome to PicNova. It is an innovative mobile application that leverages advanced artificial intelligence technology to provide image generation, enhancement, restoration, and creative transformation services. We are committed to protecting your privacy and ensuring the security of your personal information.
           </p>
           <p className="legal-text">
             This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application PicNova, available on the Google Play Store (the "App" or "Service"). Please read this Privacy Policy carefully. By accessing or using PicNova, you acknowledge that you have read, understood, and agree to be bound by all the terms of this Privacy Policy.
@@ -97,6 +97,7 @@ const PrivacyPolicy = () => {
             <li>Screen resolution, display settings, and device orientation preferences</li>
             <li>Device language and regional settings</li>
             <li>Available storage space and memory allocation relevant to App performance</li>
+            <li>Push notification tokens (to deliver system and external notifications)</li>
           </ul>
 
           <h3 className="legal-subsection-title">2.3 Usage and Analytics Data</h3>
@@ -121,9 +122,10 @@ const PrivacyPolicy = () => {
             <li>Email address provided during registration or obtained from linked social accounts</li>
             <li>Username or display name you choose for your PicNova profile</li>
             <li>Profile picture, if you choose to upload one or link from a connected social account</li>
-            <li>Authentication tokens and credentials necessary for account security and access management</li>
+            <li>Authentication tokens and credentials necessary for account security and access management (including JWT-based authentication)</li>
             <li>Account preferences, saved projects, and user-generated content associated with your account</li>
-            <li>Purchase history and subscription status for premium features, if applicable</li>
+            <li>Purchase history and subscription status for premium features</li>
+            <li>Social login profile data (if you sign in using Google+, we collect your name, email, and profile picture)</li>
           </ul>
 
           <h3 className="legal-subsection-title">2.5 Communications Data</h3>
@@ -187,7 +189,6 @@ const PrivacyPolicy = () => {
           <ul className="legal-list">
             <li>Process your images through our AI enhancement, generation, and transformation features</li>
             <li>Generate AI-created images based on your text prompts and creative directions</li>
-            <li>Provide image editing tools, filters, and creative effects</li>
             <li>Enable saving, exporting, and sharing of processed images</li>
             <li>Sync your content across devices if you use account features</li>
             <li>Process transactions and manage subscriptions for premium features</li>
@@ -237,7 +238,7 @@ const PrivacyPolicy = () => {
 
           <h3 className="legal-subsection-title">5.1 Image Retention Policies</h3>
           <ul className="legal-list">
-            <li><strong>Processing Images:</strong> Images uploaded for AI processing are automatically deleted from our servers within 24 hours of processing completion</li>
+            <li><strong>Processing Images:</strong> Images uploaded for AI processing are used to provide the requested service. Both processed images and original uploaded images are securely stored on our servers.</li>
             <li><strong>Cloud-Saved Images:</strong> If you choose to save images to our cloud storage feature, they are retained until you delete them or close your account</li>
             <li><strong>Local Storage:</strong> Images saved to your device remain under your control and are not accessible to PicNova</li>
             <li><strong>Cached Data:</strong> Temporary cache data on our servers is automatically purged within 7 days</li>
@@ -283,10 +284,16 @@ const PrivacyPolicy = () => {
             For premium subscriptions and in-app purchases, payments are processed through the Google Play Store billing system. We do not directly collect or store your payment card information. Payment transactions are subject to Google's Privacy Policy and Terms of Service.
           </p>
 
-          <h3 className="legal-subsection-title">6.4 Advertising (If Applicable)</h3>
+          <h3 className="legal-subsection-title">6.4 Advertising & Monetization</h3>
           <p className="legal-text">
-            If PicNova displays advertisements, we may work with advertising partners who collect device identifiers to serve relevant ads. You can opt out of personalized advertising through your device settings or by adjusting your Google Advertising preferences.
+            PicNova utilizes an ad-supported model for its free version. To provide this service, we work with advertising partners, primarily <strong>Google AdMob</strong>, and other third-party ad networks.
           </p>
+          <ul className="legal-list">
+            <li><strong>Ad Types:</strong> We display Banner ads, Interstitial ads, and Rewarded ads within the App.</li>
+            <li><strong>Data Collection for Ads:</strong> Our ad partners may collect and use your device identifiers (such as Android Advertising ID), device information, and usage data to serve personalized and relevant advertisements.</li>
+            <li><strong>Rewarded Ads:</strong> You may choose to view rewarded advertisements to earn additional credits for image generation or to download generated content. Your interaction with these ads is monitored to grant the appropriate rewards.</li>
+            <li><strong>Opt-Out:</strong> You can opt out of personalized advertising through your device's Google settings or Advertising ID settings.</li>
+          </ul>
         </section>
 
         {/* Section 7: Data Security */}
