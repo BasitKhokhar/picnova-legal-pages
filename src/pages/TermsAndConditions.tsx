@@ -115,7 +115,7 @@ const TermsAndConditions = () => {
         <section id="ai-content" className="legal-section">
           <h2 className="legal-section-title">3. AI-Generated Content Disclaimer</h2>
           <p className="legal-text">
-            PicNova utilizes sophisticated artificial intelligence and machine learning technologies to generate and process images. It is important that you understand the nature and limitations of AI-generated content.
+            PicNova utilizes sophisticated third-party artificial intelligence and machine learning technologies to generate and process images. It is important that you understand the nature and limitations of AI-generated content.
           </p>
 
           <h3 className="legal-subsection-title">3.1 Nature of AI Output</h3>
@@ -205,7 +205,7 @@ const TermsAndConditions = () => {
           </p>
           <ul className="legal-list">
             <li>You retain all ownership rights to your original photographs and images</li>
-            <li>By uploading images, you grant PicNova a limited, non-exclusive license to process, modify, and enhance your images solely for the purpose of providing our services</li>
+            <li>By uploading images, you grant PicNova a limited, non-exclusive license to securely transmit, process, modify, and enhance your images utilizing our third-party AI service providers solely for the purpose of providing our services</li>
             <li>This license terminates upon deletion of your content or account closure</li>
             <li>We do not claim ownership of your uploaded content</li>
           </ul>

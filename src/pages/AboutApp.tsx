@@ -90,7 +90,7 @@ const AboutApp = () => {
         <section id="ai-features" className="legal-section">
           <h2 className="legal-section-title">3. AI-Powered Features</h2>
           <p className="legal-text">
-            PicNova offers a comprehensive suite of AI-powered features designed to address every aspect of image creation and enhancement. Each feature leverages sophisticated machine learning models trained on diverse, high-quality datasets to deliver professional-grade results.
+            PicNova offers a comprehensive suite of AI-powered features designed to address every aspect of image creation and enhancement. Each feature leverages sophisticated third-party machine learning APIs (such as the SeeDreamModel 4.0 API) to deliver professional-grade results.
           </p>
 
           <div className="grid gap-6 my-6">
@@ -200,8 +200,8 @@ const AboutApp = () => {
             PicNova uses a hybrid processing approach optimized for each feature:
           </p>
           <ul className="legal-list">
-            <li><strong>Cloud Processing:</strong> Complex operations like AI image generation and advanced enhancements utilize our cloud infrastructure, where powerful GPU clusters can perform computations that would be impossible on mobile devices alone. This ensures fast processing times and high-quality results regardless of your device's specifications</li>
-            <li><strong>On-Device Processing:</strong> Simpler operations, previews, and certain optimized features may run directly on your device for instant feedback and offline capability. We continuously optimize our models for mobile efficiency</li>
+            <li><strong>Cloud Processing:</strong> Complex operations like AI image generation and advanced enhancements securely transmit your images and prompts to our third-party AI service providers (e.g., SeeDreamModel 4.0). Their powerful cloud infrastructure can perform computations impossible on mobile devices alone. This ensures fast processing times and high-quality results.</li>
+            <li><strong>On-Device Processing:</strong> Simpler operations, previews, and certain optimized features may run directly on your device for instant feedback and offline capability. We continuously optimize our application for mobile efficiency</li>
             <li><strong>Smart Orchestration:</strong> The app intelligently determines the best processing location based on the task, your connection quality, and device capabilities, ensuring the optimal balance of speed and quality</li>
           </ul>
 
@@ -228,10 +228,10 @@ const AboutApp = () => {
 
           <h3 className="legal-subsection-title">Ethical Development Principles</h3>
           <ul className="legal-list">
-            <li><strong>Bias Awareness and Mitigation:</strong> We actively work to identify and reduce biases in our AI models. This includes diverse training data, regular auditing of outputs, and ongoing refinement to ensure fair and inclusive representation across different demographics, cultures, and contexts</li>
+            <li><strong>Bias Awareness and Mitigation:</strong> We actively partner with AI providers who work to identify and reduce biases in their AI models to ensure fair and inclusive representation across different demographics, cultures, and contexts</li>
             <li><strong>Transparency:</strong> We are open about our AI's capabilities and limitations. We don't overstate what our technology can do, and we clearly communicate when content is AI-generated. This helps users make informed decisions about how to use and represent AI-created content</li>
-            <li><strong>Human Oversight:</strong> While our AI operates autonomously in processing tasks, we maintain human oversight over model development, policy decisions, and ethical considerations. AI enhances human capability rather than replacing human judgment</li>
-            <li><strong>Continuous Improvement:</strong> We actively monitor our systems for unintended behaviors or outputs, and we maintain rapid response capabilities to address any issues that arise. User feedback is invaluable in this process</li>
+            <li><strong>Human Oversight:</strong> While our chosen third-party AI operates autonomously in processing tasks, we maintain human oversight over policy decisions and ethical considerations to ensure the AI enhances human capability rather than replacing human judgment</li>
+            <li><strong>Continuous Improvement:</strong> We actively monitor the system for unintended behaviors or outputs, and we maintain rapid response capabilities to address any issues that arise. User feedback is invaluable in this process</li>
           </ul>
 
           <h3 className="legal-subsection-title">Content Safety Measures</h3>
@@ -339,7 +339,7 @@ const AboutApp = () => {
             <li><strong>Data Minimization:</strong> We collect only the information necessary to provide and improve our services. We don't accumulate data beyond what's needed for your requested operations</li>
             <li><strong>Transparency:</strong> Our Privacy Policy clearly explains what data we collect, how we use it, and your rights regarding your information. No hidden practices or surprising disclosures</li>
             <li><strong>User Control:</strong> You maintain control over your content and data. You can delete your images, manage your account, and exercise your privacy rights at any time</li>
-            <li><strong>No Training on Personal Images:</strong> We do not use your personal uploaded images to train our AI models. Your photos remain your private property</li>
+            <li><strong>No Training on Personal Images:</strong> Neither we nor our third-party AI API providers use your personal uploaded images or prompts to train machine learning models without explicit consent. Your photos remain your private property</li>
           </ul>
 
           <h3 className="legal-subsection-title">Security Measures</h3>
