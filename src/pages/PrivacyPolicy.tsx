@@ -79,7 +79,7 @@ const PrivacyPolicy = () => {
           </p>
           <ul className="legal-list">
             <li>Photographs uploaded from your device's camera roll or gallery for enhancement, restoration, or transformation purposes</li>
-            <li>Images captured directly through the App's camera integration functionality</li>
+            {/* <li>Images captured directly through the App's camera integration functionality</li> */}
             <li>AI-generated images created based on your text prompts and creative inputs</li>
             <li>Modified, enhanced, or transformed versions of original images processed through our AI systems</li>
             <li>Metadata associated with uploaded images, which may include creation date, file size, resolution, and format information</li>
@@ -100,21 +100,7 @@ const PrivacyPolicy = () => {
             <li>Push notification tokens (to deliver system and external notifications)</li>
           </ul>
 
-          <h3 className="legal-subsection-title">2.3 Usage and Analytics Data</h3>
-          <p className="legal-text">
-            To improve our services and user experience, we collect information about how you interact with PicNova:
-          </p>
-          <ul className="legal-list">
-            <li>Features and functions accessed within the App, including frequency and duration of use</li>
-            <li>User preferences, settings, and configuration choices made within the App</li>
-            <li>Session duration, time stamps, and patterns of App usage</li>
-            <li>Performance metrics, including load times, processing speeds, and error occurrences</li>
-            <li>Navigation paths and user interface interactions (screens viewed, buttons tapped, gestures used)</li>
-            <li>Search queries and text prompts entered for AI image generation features</li>
-            <li>Filter selections, editing tool usage, and creative feature preferences</li>
-          </ul>
-
-          <h3 className="legal-subsection-title">2.4 Account Information (Optional)</h3>
+          <h3 className="legal-subsection-title">2.3 Account Information (Optional)</h3>
           <p className="legal-text">
             If you choose to create an account with PicNova or sign in using third-party authentication services, we may collect:
           </p>
@@ -128,7 +114,7 @@ const PrivacyPolicy = () => {
             <li>Social login profile data (if you sign in using Google+, we collect your name, email, and profile picture)</li>
           </ul>
 
-          <h3 className="legal-subsection-title">2.5 Communications Data</h3>
+          <h3 className="legal-subsection-title">2.4 Communications Data</h3>
           <p className="legal-text">
             When you contact us for support or provide feedback, we collect:
           </p>
@@ -144,36 +130,33 @@ const PrivacyPolicy = () => {
         <section id="ai-processing" className="legal-section">
           <h2 className="legal-section-title">3. AI Image Processing</h2>
           <p className="legal-text">
-            PicNova utilizes state-of-the-art artificial intelligence and machine learning technologies to provide our image generation, enhancement, and transformation services. Understanding how your images are processed is essential to your privacy, and we are committed to complete transparency in this regard.
+            PicNova utilizes state-of-the-art third-party artificial intelligence and machine learning technologies, including the SeeDreamModel 4.0 API, to provide our image generation, enhancement, and transformation services. Understanding how your images and text prompts are processed by these external partners is essential to your privacy, and we are committed to complete transparency in this regard.
           </p>
 
-          <h3 className="legal-subsection-title">3.1 How AI Processing Works</h3>
+          <h3 className="legal-subsection-title">3.1 Third-Party Processing of Your Data</h3>
           <p className="legal-text">
-            When you use PicNova's AI-powered features, your images and prompts are processed through our secure AI infrastructure:
+            To deliver our core features, we securely transmit the text prompts and images you submit to our trusted third-party AI service providers. This means:
           </p>
           <ul className="legal-list">
-            <li><strong>Image Enhancement:</strong> Our AI analyzes visual elements including color balance, lighting, sharpness, and composition to automatically improve image quality while preserving the original subject matter and artistic intent</li>
-            <li><strong>Image Generation:</strong> Text prompts are processed by our natural language understanding models, which interpret your creative vision and generate corresponding visual content using advanced generative AI algorithms</li>
-            <li><strong>Image Restoration:</strong> Damaged, low-quality, or aged photographs are analyzed and reconstructed using pattern recognition and image synthesis techniques to restore clarity and detail</li>
-            <li><strong>Creative Transformations:</strong> Style transfer, artistic filters, and creative modifications are applied using neural network models trained on diverse artistic and photographic styles</li>
+            <li><strong>Data Sharing for Core Functionality:</strong> Your images and text inputs are shared with our AI partner (such as the provider of SeeDreamModel 4.0) exclusively for the purpose of generating, analyzing, or editing the requested image.</li>
+            <li><strong>No Extraneous Data Shared:</strong> We only transmit the specific image or text prompt required for the AI to perform its task. We do not link these prompts or images to your personal identity (such as your name or email) when sending them to the third-party processor.</li>
+            <li><strong>Automated Processing:</strong> The third-party AI analyzes your submitted content automatically to generate, enhance, restore, or apply creative transformations to the image.</li>
           </ul>
 
-          <h3 className="legal-subsection-title">3.2 Temporary Processing</h3>
+          <h3 className="legal-subsection-title">3.2 Data Security and Retention During AI Processing</h3>
           <p className="legal-text">
-            Images uploaded for processing are handled with strict privacy protocols:
+            We ensure that our third-party AI providers handle your data with strict privacy protocols:
           </p>
           <ul className="legal-list">
-            <li>Images are transmitted using end-to-end encryption protocols to our secure processing servers</li>
-            <li>Processing occurs in isolated, temporary computational environments with no persistent storage</li>
-            <li>Original uploaded images are automatically deleted from our processing servers within 24 hours of processing completion, unless you explicitly choose to save them to cloud storage</li>
-            <li>Processed output images are returned to your device and not retained on our servers beyond the active session</li>
-            <li>Text prompts used for image generation are not linked to your personal identity and are automatically purged after processing</li>
+            <li><strong>Secure Transmission:</strong> Images and text prompts are transmitted to the third-party API using secure, encrypted protocols (e.g., TLS).</li>
+            <li><strong>Temporary Handling:</strong> Our AI partners are required to process your data only for the duration necessary to fulfill your request. The data is handled in secure, isolated computational environments.</li>
+            <li><strong>No Persistent Retention by Partners:</strong> Uploaded images and generated outputs are not permanently stored by our third-party AI providers. They are returned to PicNova and routinely purged from the third-party's processing servers shortly after completion.</li>
           </ul>
 
           <h3 className="legal-subsection-title">3.3 AI Model Training Disclosure</h3>
           <div className="legal-highlight-box">
             <p className="legal-text mb-0">
-              <strong>Transparency Commitment:</strong> PicNova does NOT use your personal images to train our AI models. Your uploaded photos and generated content remain private and are not incorporated into our machine learning training datasets. Our AI models are trained exclusively on properly licensed, anonymized, and publicly available datasets.
+              <strong>Transparency Commitment:</strong> Neither PicNova nor our third-party AI processor uses your personal images, generated content, or text prompts to train general machine learning or AI models without explicit consent. The data you submit is used strictly to provide the requested service and remains private.
             </p>
           </div>
         </section>
@@ -182,50 +165,41 @@ const PrivacyPolicy = () => {
         <section id="data-usage" className="legal-section">
           <h2 className="legal-section-title">4. How We Use Your Data</h2>
           <p className="legal-text">
-            We use the information we collect for various purposes, all aimed at providing, improving, and personalizing your PicNova experience. Our data usage practices are guided by the principles of data minimization, purpose limitation, and transparency.
+            We use the information we collect for specific purposes, all aimed at providing and supporting your PicNova experience. Our data usage practices are guided by the principles of data minimization, purpose limitation, and transparency.
           </p>
 
           <h3 className="legal-subsection-title">4.1 Service Provision and Core Functionality</h3>
           <ul className="legal-list">
-            <li>Process your images through our AI enhancement, generation, and transformation features</li>
-            <li>Generate AI-created images based on your text prompts and creative directions</li>
-            <li>Enable saving, exporting, and sharing of processed images</li>
-            <li>Sync your content across devices if you use account features</li>
-            <li>Process transactions and manage subscriptions for premium features</li>
+            <li>Securely transmit your images and text prompts to our third-party AI provider to generate, enhance, or transform images.</li>
+            <li>Enable saving, exporting, and sharing of processed images on your local device or via standard sharing extensions.</li>
+            <li>Process transactions and manage subscriptions for premium features.</li>
           </ul>
 
-          <h3 className="legal-subsection-title">4.2 Service Improvement and Development</h3>
+          <h3 className="legal-subsection-title">4.2 Service Maintenance and Bug Fixing</h3>
           <ul className="legal-list">
-            <li>Analyze usage patterns to identify popular features and areas for improvement</li>
-            <li>Monitor App performance, identify technical issues, and optimize system resources</li>
-            <li>Develop new features, tools, and creative capabilities based on user needs</li>
-            <li>Conduct internal research and development for enhanced AI capabilities</li>
-            <li>Test and validate updates before release to ensure quality and stability</li>
+            <li>Identify technical issues and crashes reported by users to optimize system resources and ensure app stability.</li>
+            <li>Test and validate necessary technical updates before release to ensure continued quality.</li>
           </ul>
 
           <h3 className="legal-subsection-title">4.3 Personalization and User Experience</h3>
           <ul className="legal-list">
-            <li>Remember your preferences, settings, and customization choices</li>
-            <li>Provide personalized recommendations for features, filters, and creative tools</li>
-            <li>Optimize the App interface based on your device specifications and usage patterns</li>
-            <li>Deliver relevant tips, tutorials, and guidance to help you maximize PicNova's capabilities</li>
+            <li>Remember any manual preferences, settings, and customization choices you intentionally set within the App.</li>
+            <li>Deliver relevant tips and tutorials to help you maximize PicNova's capabilities.</li>
           </ul>
 
           <h3 className="legal-subsection-title">4.4 Communication and Support</h3>
           <ul className="legal-list">
-            <li>Respond to your inquiries, support requests, and feedback submissions</li>
-            <li>Send important service announcements, security alerts, and policy updates</li>
-            <li>Provide technical assistance and troubleshooting guidance</li>
-            <li>Send promotional communications (only with your explicit consent, and you may opt out at any time)</li>
+            <li>Respond directly to your inquiries, support requests, and feedback submissions.</li>
+            <li>Send important service announcements, security alerts, and policy updates.</li>
+            <li>Provide technical assistance and troubleshooting guidance.</li>
           </ul>
 
           <h3 className="legal-subsection-title">4.5 Legal and Safety Purposes</h3>
           <ul className="legal-list">
-            <li>Comply with applicable laws, regulations, and legal processes</li>
-            <li>Enforce our Terms of Service and other agreements</li>
-            <li>Protect against fraudulent, unauthorized, or illegal activity</li>
-            <li>Ensure the safety and security of our users and services</li>
-            <li>Respond to lawful requests from public authorities</li>
+            <li>Comply with applicable laws, regulations, and legal processes.</li>
+            <li>Enforce our Terms of Service and other agreements.</li>
+            <li>Protect against fraudulent, unauthorized, or illegal activity.</li>
+            <li>Ensure the safety and security of our users and services.</li>
           </ul>
         </section>
 
@@ -239,7 +213,7 @@ const PrivacyPolicy = () => {
           <h3 className="legal-subsection-title">5.1 Image Retention Policies</h3>
           <ul className="legal-list">
             <li><strong>Processing Images:</strong> Images uploaded for AI processing are used to provide the requested service. Both processed images and original uploaded images are securely stored on our servers.</li>
-            <li><strong>Cloud-Saved Images:</strong> If you choose to save images to our cloud storage feature, they are retained until you delete them or close your account</li>
+
             <li><strong>Local Storage:</strong> Images saved to your device remain under your control and are not accessible to PicNova</li>
             <li><strong>Cached Data:</strong> Temporary cache data on our servers is automatically purged within 7 days</li>
           </ul>
@@ -262,29 +236,37 @@ const PrivacyPolicy = () => {
         <section id="third-party" className="legal-section">
           <h2 className="legal-section-title">6. Third-Party Services</h2>
           <p className="legal-text">
-            PicNova may utilize third-party services to enhance functionality, provide analytics, and improve user experience. These services operate under their own privacy policies, and we encourage you to review them.
+            PicNova utilizes third-party services to deliver our core functionality, manage infrastructure, process payments, and serve advertisements. These services operate under their own privacy policies, and we encourage you to review them.
           </p>
 
-          <h3 className="legal-subsection-title">6.1 Analytics and Performance Monitoring</h3>
+          <h3 className="legal-subsection-title">6.1 AI Processing Services</h3>
           <ul className="legal-list">
-            <li><strong>Google Analytics for Firebase:</strong> Used to analyze App usage, performance metrics, and user engagement patterns. Data is aggregated and anonymized for statistical analysis</li>
-            <li><strong>Crashlytics:</strong> Collects crash reports and diagnostic information to help us identify and fix technical issues quickly</li>
-            <li><strong>Performance Monitoring:</strong> Tracks App performance metrics to ensure optimal user experience across different devices and network conditions</li>
+            <li><strong>SeeDreamModel 4.0 API:</strong> Used to provide the core AI image generation, enhancement, and transformation features of the App. Your text prompts and images are securely transmitted to this service solely for processing your requests. Data is handled temporarily and not used for independent model training by the provider.</li>
           </ul>
 
-          <h3 className="legal-subsection-title">6.2 Cloud Infrastructure</h3>
+          <h3 className="legal-subsection-title">6.2 Push Notifications and Communication</h3>
           <ul className="legal-list">
-            <li>We utilize industry-leading cloud service providers with robust security certifications for data storage and processing</li>
-            <li>Cloud providers are contractually obligated to maintain strict confidentiality and security standards</li>
-            <li>All data transfers to cloud infrastructure are encrypted using TLS 1.3 or higher protocols</li>
+            <li><strong>Expo Push Notifications & Firebase Cloud Messaging (FCM):</strong> Used to deliver system and external notifications to your device. To provide this service, we collect and share device push tokens with Expo and FCM. This data is used strictly for the delivery of notifications and is subject to the privacy policies of Expo and Google.</li>
           </ul>
 
-          <h3 className="legal-subsection-title">6.3 Payment Processing</h3>
+          <h3 className="legal-subsection-title">6.3 Authentication and Account Management</h3>
+          <ul className="legal-list">
+            <li><strong>Google Cloud (Google Sign-In):</strong> If you choose to log in using Google, we utilize Google Cloud APIs for authentication. Google handles your credentials, and we only receive authorized profile details (such as your name, email, and profile picture) as governed by Google's Privacy Policy.</li>
+          </ul>
+
+          <h3 className="legal-subsection-title">6.4 Cloud Infrastructure</h3>
+          <ul className="legal-list">
+            <li>We utilize industry-leading cloud service providers with robust security certifications to securely route your data to our AI processing partners.</li>
+            <li>Cloud providers are contractually obligated to maintain strict confidentiality and security standards.</li>
+            <li>All data transfers to and from our cloud infrastructure and third-party AI APIs are encrypted using TLS 1.3 or higher protocols.</li>
+          </ul>
+
+          <h3 className="legal-subsection-title">6.5 Payment Processing</h3>
           <p className="legal-text">
             For premium subscriptions and in-app purchases, payments are processed through the Google Play Store billing system. We do not directly collect or store your payment card information. Payment transactions are subject to Google's Privacy Policy and Terms of Service.
           </p>
 
-          <h3 className="legal-subsection-title">6.4 Advertising & Monetization</h3>
+          <h3 className="legal-subsection-title">6.6 Advertising & Monetization</h3>
           <p className="legal-text">
             PicNova utilizes an ad-supported model for its free version. To provide this service, we work with advertising partners, primarily <strong>Google AdMob</strong>, and other third-party ad networks.
           </p>
@@ -292,7 +274,6 @@ const PrivacyPolicy = () => {
             <li><strong>Ad Types:</strong> We display Banner ads, Interstitial ads, and Rewarded ads within the App.</li>
             <li><strong>Data Collection for Ads:</strong> Our ad partners may collect and use your device identifiers (such as Android Advertising ID), device information, and usage data to serve personalized and relevant advertisements.</li>
             <li><strong>Rewarded Ads:</strong> You may choose to view rewarded advertisements to earn additional credits for image generation or to download generated content. Your interaction with these ads is monitored to grant the appropriate rewards.</li>
-            <li><strong>Opt-Out:</strong> You can opt out of personalized advertising through your device's Google settings or Advertising ID settings.</li>
           </ul>
         </section>
 
@@ -465,14 +446,9 @@ const PrivacyPolicy = () => {
             <li><strong>Response Time:</strong> We aim to respond to all privacy-related inquiries within 5 business days</li>
           </ul>
 
-          <h3 className="legal-subsection-title">12.2 Data Protection Officer</h3>
+          <h3 className="legal-subsection-title">12.2 Regulatory Complaints and Privacy Requests</h3>
           <p className="legal-text">
-            For users in the European Economic Area, you may contact our designated Data Protection Officer at privacy@picnova.app for any questions or concerns related to GDPR compliance and data protection rights.
-          </p>
-
-          <h3 className="legal-subsection-title">12.3 Regulatory Complaints</h3>
-          <p className="legal-text">
-            If you believe we have not adequately addressed your privacy concerns, you have the right to lodge a complaint with your local data protection supervisory authority. We encourage you to contact us first so we can attempt to resolve any issues directly.
+            For users in the European Economic Area or other regions with specific data protection laws, or if you believe we have not adequately addressed your privacy concerns, please contact our customer support team directly at support@picnova.app. We encourage you to contact us first so we can attempt to resolve any issues directly, though you also reserve the right to lodge a complaint with your local data protection supervisory authority.
           </p>
 
           <div className="legal-highlight-box">
