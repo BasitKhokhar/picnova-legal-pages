@@ -3,7 +3,7 @@ import LegalFooter from "@/components/LegalFooter";
 import { ScrollText } from "lucide-react";
 
 const TermsAndConditions = () => {
-  const lastUpdated = "January 21, 2026";
+  const lastUpdated = "April 21, 2026";
 
   const tocItems = [
     { id: "acceptance", label: "1. Acceptance of Terms" },

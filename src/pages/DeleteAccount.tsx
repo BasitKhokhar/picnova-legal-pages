@@ -2,6 +2,7 @@ import LegalNav from "@/components/LegalNav";
 import LegalFooter from "@/components/LegalFooter";
 
 const DeleteAccount = () => {
+  const lastUpdated = "April 21, 2026";
   const tocItems = [
     { id: "introduction", label: "1. Introduction" },
     { id: "how-to-delete", label: "2. How to Delete Your Account" },
@@ -17,9 +18,11 @@ const DeleteAccount = () => {
       <main className="legal-container">
         <header className="legal-header">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 mb-6">
+            {/* <Shield className="w-8 h-8 text-primary" /> */}
             <img src="/logoo.png" alt="PicNova Logo" className="w-full h-full object-cover rounded-sm" />
           </div>
           <h1 className="legal-title">Delete Account</h1>
+          <p className="legal-subtitle">Last Updated: {lastUpdated}</p>
         </header>
 
         {/* Table of Contents */}

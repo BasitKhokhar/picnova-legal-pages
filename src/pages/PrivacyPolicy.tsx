@@ -3,7 +3,7 @@ import LegalFooter from "@/components/LegalFooter";
 import { Shield } from "lucide-react";
 
 const PrivacyPolicy = () => {
-  const lastUpdated = "February 25, 2026";
+  const lastUpdated = "April 21, 2026";
 
   const tocItems = [
     { id: "introduction", label: "1. Introduction" },
