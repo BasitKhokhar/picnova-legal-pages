@@ -378,7 +378,7 @@ const AboutApp = () => {
 
           <h3 className="legal-subsection-title">Support & Inquiries</h3>
           <ul className="legal-list">
-            <li><strong>General Support:</strong> support@picnova.app</li>
+            <li><strong>General Support:</strong> basit@coderzpark.com</li>
             <li><strong>Bug Reports:</strong> Please include detailed steps to reproduce any issues, along with your device model and app version</li>
             <li><strong>Feature Requests:</strong> We read every suggestion and prioritize based on community interest and alignment with our vision</li>
             <li><strong>Response Time:</strong> We strive to respond to all inquiries within 2-3 business days</li>

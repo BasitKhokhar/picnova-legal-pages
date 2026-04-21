@@ -228,7 +228,7 @@ const PrivacyPolicy = () => {
 
           <h3 className="legal-subsection-title">5.3 Data Deletion Requests</h3>
           <p className="legal-text">
-            You may request deletion of your personal data at any time by contacting us at support@picnova.app. We will process your request within 30 days and confirm deletion completion. Certain information may be retained as required by law or for legitimate business purposes (such as fraud prevention).
+            You may request deletion of your personal data at any time by contacting us at basit@coderzpark.com. We will process your request within 30 days and confirm deletion completion. Certain information may be retained as required by law or for legitimate business purposes (such as fraud prevention).
           </p>
         </section>
 
@@ -327,7 +327,7 @@ const PrivacyPolicy = () => {
 
           <h3 className="legal-subsection-title">8.2 Parental Rights and Controls</h3>
           <p className="legal-text">
-            If you are a parent or guardian and believe that your child under 13 has provided personal information to PicNova, please contact us immediately at support@picnova.app. Upon verification, we will:
+            If you are a parent or guardian and believe that your child under 13 has provided personal information to PicNova, please contact us immediately at basit@coderzpark.com. Upon verification, we will:
           </p>
           <ul className="legal-list">
             <li>Promptly delete any personal information associated with the child's use of our services</li>
@@ -383,7 +383,7 @@ const PrivacyPolicy = () => {
 
           <h3 className="legal-subsection-title">9.5 Exercising Your Rights</h3>
           <p className="legal-text">
-            To exercise any of these rights, please contact us at support@picnova.app with your request. We may need to verify your identity before processing your request. We will respond to all legitimate requests within the timeframes required by applicable law (typically within 30 days).
+            To exercise any of these rights, please contact us at basit@coderzpark.com with your request. We may need to verify your identity before processing your request. We will respond to all legitimate requests within the timeframes required by applicable law (typically within 30 days).
           </p>
         </section>
 
@@ -441,14 +441,14 @@ const PrivacyPolicy = () => {
 
           <h3 className="legal-subsection-title">12.1 Contact Information</h3>
           <ul className="legal-list">
-            <li><strong>Email:</strong> support@picnova.app</li>
+            <li><strong>Email:</strong> basit@coderzpark.com</li>
             <li><strong>Subject Line:</strong> Please include "Privacy Inquiry" in the subject line for faster processing</li>
             <li><strong>Response Time:</strong> We aim to respond to all privacy-related inquiries within 5 business days</li>
           </ul>
 
           <h3 className="legal-subsection-title">12.2 Regulatory Complaints and Privacy Requests</h3>
           <p className="legal-text">
-            For users in the European Economic Area or other regions with specific data protection laws, or if you believe we have not adequately addressed your privacy concerns, please contact our customer support team directly at support@picnova.app. We encourage you to contact us first so we can attempt to resolve any issues directly, though you also reserve the right to lodge a complaint with your local data protection supervisory authority.
+            For users in the European Economic Area or other regions with specific data protection laws, or if you believe we have not adequately addressed your privacy concerns, please contact our customer support team directly at basit@coderzpark.com. We encourage you to contact us first so we can attempt to resolve any issues directly, though you also reserve the right to lodge a complaint with your local data protection supervisory authority.
           </p>
 
           <div className="legal-highlight-box">

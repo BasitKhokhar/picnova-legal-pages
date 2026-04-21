@@ -94,8 +94,8 @@ const Index = () => {
           </p>
           <p className="text-sm text-muted-foreground">
             For questions or concerns about these policies, contact us at{" "}
-            <a href="mailto:support@picnova.app" className="text-primary hover:underline">
-              support@picnova.app
+            <a href="mailto:basit@coderzpark.com" className="text-primary hover:underline">
+              basit@coderzpark.com
             </a>
           </p>
         </div>

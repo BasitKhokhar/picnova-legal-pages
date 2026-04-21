@@ -510,7 +510,7 @@ const TermsAndConditions = () => {
           <h2 className="legal-section-title">15. Dispute Resolution</h2>
           <h3 className="legal-subsection-title">15.1 Informal Resolution</h3>
           <p className="legal-text">
-            Before filing any formal legal action, you agree to first attempt to resolve any dispute, claim, or controversy arising out of or relating to these Terms by contacting us at support@picnova.app. We will attempt to resolve the dispute informally within 60 days.
+            Before filing any formal legal action, you agree to first attempt to resolve any dispute, claim, or controversy arising out of or relating to these Terms by contacting us at basit@coderzpark.com. We will attempt to resolve the dispute informally within 60 days.
           </p>
 
           <h3 className="legal-subsection-title">15.2 Binding Arbitration</h3>
@@ -551,7 +551,7 @@ const TermsAndConditions = () => {
             If you have any questions, concerns, or feedback regarding these Terms and Conditions, please contact us:
           </p>
           <ul className="legal-list">
-            <li><strong>Email:</strong> support@picnova.app</li>
+            <li><strong>Email:</strong> basit@coderzpark.com</li>
             <li><strong>Subject Line:</strong> Please include "Terms Inquiry" for faster routing</li>
             <li><strong>Response Time:</strong> We aim to respond within 5 business days</li>
           </ul>

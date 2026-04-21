@@ -8,7 +8,7 @@ const DeleteAccount = () => {
     { id: "how-to-delete", label: "2. How to Delete Your Account" },
     { id: "data-deleted", label: "3. Data That Will Be Deleted" },
     { id: "data-retention", label: "4. Data Retention Policy" },
-    { id: "manage-data", label: "5. Manage Data Without Deleting Your Account" },
+    { id: "manage-data", label: "5. Delete Specific Data Without Deleting Your Account" },
     { id: "contact", label: "6. Contact Support" },
   ];
 
@@ -21,7 +21,7 @@ const DeleteAccount = () => {
             {/* <Shield className="w-8 h-8 text-primary" /> */}
             <img src="/logoo.png" alt="PicNova Logo" className="w-full h-full object-cover rounded-sm" />
           </div>
-          <h1 className="legal-title">Delete Account</h1>
+          <h1 className="legal-title">Delete Data</h1>
           <p className="legal-subtitle">Last Updated: {lastUpdated}</p>
         </header>
 
@@ -103,12 +103,29 @@ const DeleteAccount = () => {
 
         {/* Section 5: Optional Data Control */}
         <section id="manage-data" className="legal-section">
-          <h2 className="legal-section-title">5. Manage Data Without Deleting Your Account</h2>
+          <h2 className="legal-section-title">5. Delete Specific Data Without Deleting Your Account</h2>
           <p className="legal-text">
-            If you wish to retain your account but want to remove specific pieces of information, you have the option to:
+            Users can also delete certain data without deleting their account.
           </p>
+
+          <h3 className="legal-subsection-title mt-4">How to delete generated images:</h3>
           <ul className="legal-list">
-            <li>Manually delete individual generated images or processing history directly within the app.</li>
+            <li>Open the <strong>PicNova app</strong></li>
+            <li>Go to your <strong>gallery or history</strong></li>
+            <li>Select the image</li>
+            <li>Tap the <strong>delete option</strong></li>
+          </ul>
+
+          <h3 className="legal-subsection-title mt-4">What data can be deleted:</h3>
+          <ul className="legal-list">
+            <li>AI-generated images</li>
+            <li>Image history</li>
+            <li>Saved prompts (if applicable)</li>
+          </ul>
+
+          <h3 className="legal-subsection-title mt-4">Retention:</h3>
+          <ul className="legal-list">
+            <li>Deleted images are permanently removed from our systems within <strong>24–48 hours</strong>.</li>
           </ul>
         </section>
 
