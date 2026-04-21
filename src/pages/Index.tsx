@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Sparkles, Shield, ScrollText, Info, ExternalLink } from "lucide-react";
+import { Sparkles, Shield, ScrollText, Info, ExternalLink, UserX } from "lucide-react";
 
 const Index = () => {
   const pages = [
@@ -20,6 +20,12 @@ const Index = () => {
       description: "Discover PicNova's features, mission, and commitment to responsible AI innovation.",
       icon: Info,
       path: "/about-app",
+    },
+    {
+      title: "Delete Account",
+      description: "Instructions on how to securely delete your PicNova account and personal data.",
+      icon: UserX,
+      path: "/delete-account",
     },
   ];
 
