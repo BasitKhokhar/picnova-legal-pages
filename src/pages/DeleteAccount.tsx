@@ -2,6 +2,15 @@ import LegalNav from "@/components/LegalNav";
 import LegalFooter from "@/components/LegalFooter";
 
 const DeleteAccount = () => {
+  const tocItems = [
+    { id: "introduction", label: "1. Introduction" },
+    { id: "how-to-delete", label: "2. How to Delete Your Account" },
+    { id: "data-deleted", label: "3. Data That Will Be Deleted" },
+    { id: "data-retention", label: "4. Data Retention Policy" },
+    { id: "manage-data", label: "5. Manage Data Without Deleting Your Account" },
+    { id: "contact", label: "6. Contact Support" },
+  ];
+
   return (
     <>
       <LegalNav />
@@ -13,8 +22,22 @@ const DeleteAccount = () => {
           <h1 className="legal-title">Delete Account</h1>
         </header>
 
+        {/* Table of Contents */}
+        <nav className="legal-toc">
+          <h2 className="legal-toc-title">Table of Contents</h2>
+          <ul className="legal-toc-list">
+            {tocItems.map((item) => (
+              <li key={item.id}>
+                <a href={`#${item.id}`} className="legal-toc-link">
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
         {/* Section 1: Introduction */}
-        <section className="legal-section">
+        <section id="introduction" className="legal-section">
           <h2 className="legal-section-title">1. Introduction</h2>
           <p className="legal-text">
             At PicNova, we respect your privacy and give you full control over your data. You can request to delete your account and all associated personal data at any time.
@@ -27,7 +50,7 @@ const DeleteAccount = () => {
         </section>
 
         {/* Section 2: How to Delete Account (Steps) */}
-        <section className="legal-section">
+        <section id="how-to-delete" className="legal-section">
           <h2 className="legal-section-title">2. How to Delete Your Account</h2>
           <p className="legal-text">
             There are two ways to request the deletion of your PicNova account and associated data:
@@ -37,7 +60,7 @@ const DeleteAccount = () => {
           <ul className="legal-list">
             <li>Open the <strong>PicNova app</strong> on your mobile device.</li>
             <li>Navigate to the <strong>Settings</strong> or <strong>Profile</strong> section.</li>
-            <li>Tap on the <strong>"Delete Account"</strong> option.</li>
+            <li>Tap on the <strong>"Delete Account"</strong> option in Personal Info section.</li>
             <li>Follow the on-screen prompts to confirm your deletion request.</li>
           </ul>
 
@@ -50,21 +73,20 @@ const DeleteAccount = () => {
         </section>
 
         {/* Section 3: Data That Will Be Deleted */}
-        <section className="legal-section">
+        <section id="data-deleted" className="legal-section">
           <h2 className="legal-section-title">3. Data That Will Be Deleted</h2>
           <p className="legal-text">
             Upon processing your account deletion request, the following information will be permanently removed from our systems:
           </p>
           <ul className="legal-list">
-            <li><strong>User Account Details:</strong> Name, email address, and phone number.</li>
-            <li><strong>Login Credentials:</strong> Authentication tokens and associated social login links.</li>
+            <li><strong>User Account Details:</strong> Name, email address, and phone number etc.</li>
             <li><strong>Media Content:</strong> All AI-generated images, enhanced photos, and processing history.</li>
             <li><strong>App Data:</strong> Stored prompts, project drafts, and user preferences.</li>
           </ul>
         </section>
 
         {/* Section 4: Data Retention Policy */}
-        <section className="legal-section">
+        <section id="data-retention" className="legal-section">
           <h2 className="legal-section-title">4. Data Retention Policy</h2>
           <p className="legal-text">
             After initiating an account deletion request:
@@ -77,19 +99,18 @@ const DeleteAccount = () => {
         </section>
 
         {/* Section 5: Optional Data Control */}
-        <section className="legal-section">
+        <section id="manage-data" className="legal-section">
           <h2 className="legal-section-title">5. Manage Data Without Deleting Your Account</h2>
           <p className="legal-text">
             If you wish to retain your account but want to remove specific pieces of information, you have the option to:
           </p>
           <ul className="legal-list">
             <li>Manually delete individual generated images or processing history directly within the app.</li>
-            <li>Request the deletion of specific data sets (e.g., just your generation history) by contacting our support team, without needing to delete your entire account.</li>
           </ul>
         </section>
 
         {/* Section 6: Contact Support */}
-        <section className="legal-section">
+        <section id="contact" className="legal-section">
           <h2 className="legal-section-title">6. Contact Support</h2>
           <p className="legal-text">
             If you need assistance with the account deletion process or have any questions about how your data is handled, please reach out to us:
